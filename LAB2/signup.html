@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>
+            연세 쇼핑몰
+            <a href="login.html">로그인하기→</a>
+        </h1>
+        <div class="formContainer">
+            <h2>회원가입</h2>
+            <form>
+                <p>
+                    <label>아이디: 
+                        <input name="userId" type="text" autofocus required />
+                    </label>
+                </p>
+                <p>
+                    <label>비밀번호: 
+                        <input name="userPassword" type="password" required />
+                    </label>
+                </p>
+                <p>
+                    <label>비밀번호 확인: 
+                        <input name="userPasswordCheck" type="password" required />
+                    </label>
+                </p>
+                <p>
+                    <label>이름: 
+                        <input name="userName" type="text" required />
+                    </label>
+                </p>
+                <p>
+                    성별 :
+                    <label> 남성
+                        <input name="gender" type="radio" autofocus required />
+                    </label>
+                    <label> 여성
+                        <input name="gender" type="radio" autofocus required />
+                    </label>
+                </p>
+                <p>
+                    <label>생일: 
+                        <input name="userBirthday" type="date" required />
+                    </label>
+                </p>
+                <p>
+                    <label>전화번호: 
+                        <input name="userPhone" type="tel" placeholder="XXX-XXXX-XXXX" pattern="\d{3}-\d{4}-\d{4}" required />
+                    </label>
+                </p>
+                <p>
+                    <label>이메일: 
+                        <input name="userEmail" type="email" placeholder="user@domain.com" required />
+                    </label>
+                </p>
+                <h3>한 달에 인터넷 쇼핑을 몇 번 정도 하나요?(선택)</h3>
+                <p>
+                    <input name="userOption" type="number" min="0" step="1" />
+                    (회)
+                </p>
+                <p>
+                    <label>
+                        <input name="consent" type="checkbox" autofocus required />
+                        위 개인정보 제공에 동의하십니까?
+                    </label>
+                </p>
+                <p>
+                    <input id="submitBtn" type="submit" value="가입하기" />
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
