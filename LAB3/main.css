@@ -1,0 +1,129 @@
+body {
+  max-width: 1020px;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #777bf8;
+}
+
+.narbar a {
+  border: 2px solid;
+  padding: 0.5rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.section .title {
+  text-align: center;
+  font-size: 30px;
+}
+
+div.formContainer {
+  margin: 10px;
+}
+
+div.formContainer input[type="text"],
+input[type="password"] {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0px 5px gray;
+  margin-bottom: 20px;
+}
+
+.semi-title {
+  font-size: 23px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 4px solid #b4b7fc;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.414);
+}
+
+.logo {
+  position: relative;
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #777bf8;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    left: 700px;
+    opacity: 0%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+#submitBtn {
+  width: 80%;
+  height: 40px;
+  margin: 0 10%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #b4b7fc;
+}
+
+.section .books {
+  display: flex;
+  position: relative;
+}
+
+.books .book {
+  width: 25%;
+  height: auto;
+  position: relative;
+  padding: 8px;
+  transition: 2s;
+}
+
+.books .book:hover {
+  transform: scale(1.1);
+  filter: brightness(70%);
+  width: 20%;
+  z-index: 3;
+  height: auto;
+}
+
+.books .hover_text {
+  position: absolute;
+  top: 140px;
+  left: 25px;
+  color: #fff;
+  z-index: 2;
+  font-weight: 600;
+  font-size: 15px;
+  transform: translate(-50%, 50%);
+}
+
+.book .hover_text:hover {
+  display: none;
+}
+
+@media (min-width) {
+}
+@media (480px< width < 800px) {
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="index.html">Yonsei Book Store</a>
+      </div>
+      <div class="narbar">
+        <a href="login.html">login</a>
+        <a href="signup.html">signup</a>
+      </div>
+    </div>
+    <div class="main">
+      <form>
+        <legend class="semi-title">회원가입</legend>
+        <div class="formContainer">
+          <label for="userId">아이디:</label>
+          <br />
+          <input id="userId" name="userId" type="text" autofocus required />
+        </div>
+        <div class="formContainer">
+          <label for="userPassword">비밀번호:</label>
+          <br />
+          <input
+            id="userPassword"
+            name="userPassword"
+            type="password"
+            required
+          />
+        </div>
+
+        <div class="formContainer">
+          <label for="userPasswordCheck">비밀번호 확인:</label>
+          <br />
+          <input
+            id="userPasswordCheck"
+            name="userPasswordCheck"
+            type="password"
+            required
+          />
+        </div>
+
+        <div class="formContainer">
+          <label for="userName">이름:</label>
+          <br />
+          <input id="userName" name="userName" type="text" required />
+        </div>
+
+        <div class="formContainer">
+          <label>성별:</label>
+          <label style="margin: 0" for="male">남성</label>
+          <input id="male" name="gender" type="radio" autofocus required />
+          <label style="margin: 0" for="female">여성</label>
+          <input id="female" name="gender" type="radio" autofocus required />
+        </div>
+
+        <div class="formContainer">
+          <label for="userBirthday">생일:</label>
+          <br />
+          <input id="userBirthday" name="userBirthday" type="date" required />
+        </div>
+
+        <div class="formContainer">
+          <label for="userPhone">전화번호:</label>
+          <br />
+          <input
+            id="userPhone"
+            name="userPhone"
+            type="tel"
+            placeholder="XXX-XXXX-XXXX"
+            pattern="\d{3}-\d{4}-\d{4}"
+            required
+          />
+        </div>
+
+        <div class="formContainer">
+          <label for="userEmail">이메일:</label>
+          <br />
+          <input
+            id="userEmail"
+            name="userEmail"
+            type="email"
+            placeholder="user@domain.com"
+            required
+          />
+        </div>
+
+        <div class="formContainer">
+          <label for="userOption"> 월 평균 인터넷 쇼핑 사용 횟수?(선택)</label>
+          <br />
+          <input
+            id="userOption"
+            name="userOption"
+            type="number"
+            min="0"
+            step="1"
+          />
+        </div>
+
+        <div class="formContainer">
+          <label for="consent">위 개인정보 제공에 동의하십니까?</label>
+          <input
+            id="consent"
+            name="consent"
+            type="checkbox"
+            autofocus
+            required
+          />
+        </div>
+
+        <div class="formContainer">
+          <input id="submitBtn" type="submit" value="가입하기" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
