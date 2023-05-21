@@ -1,0 +1,99 @@
+[
+  {
+    "title": "아메리카노",
+    "type": "커피",
+    "price": "4,000원",
+    "posterImg": "001.jpeg"
+  },
+  {
+    "title": "카페 라떼",
+    "type": "커피",
+    "price": "4,500원",
+    "posterImg": "002.jpeg"
+  },
+  {
+    "title": "바닐라 라떼",
+    "type": "커피",
+    "price": "4,800원",
+    "posterImg": "003.jpg"
+  },
+  {
+    "title": "카페 모카",
+    "type": "커피",
+    "price": "4,800원",
+    "posterImg": "004.jpeg"
+  },
+  {
+    "title": "딸기 스무디",
+    "type": "스무디",
+    "price": "5,500원",
+    "posterImg": "005.jpg"
+  },
+  {
+    "title": "복숭아 스무디",
+    "type": "스무디",
+    "price": "5,500원",
+    "posterImg": "006.jpg"
+  },
+  {
+    "title": "블루베리 스무디",
+    "type": "스무디",
+    "price": "5,500원",
+    "posterImg": ""
+  },
+  {
+    "title": "망고 스무디",
+    "type": "스무디",
+    "price": "5,500원",
+    "posterImg": "007.jpeg"
+  },
+  {
+    "title": "요거트 프라푸치노",
+    "type": "프라푸치노",
+    "price": "5,800원",
+    "posterImg": "008.jpg"
+  },
+  {
+    "title": "바닐라 프라푸치노",
+    "type": "프라푸치노",
+    "price": "5,800원",
+    "posterImg": "009.jpeg"
+  },
+  {
+    "title": "오레오 프라푸치노",
+    "type": "프라푸치노",
+    "price": "5,800원",
+    "posterImg": "010.jpeg"
+  },
+
+  {
+    "title": "츄러스",
+    "type": "디저트",
+    "price": "3,800원",
+    "posterImg": "011.jpg"
+  },
+  {
+    "title": "쿠키",
+    "type": "디저트",
+    "price": "3,500원",
+    "posterImg": "012.jpeg"
+  },
+  {
+    "title": "마카롱",
+    "type": "디저트",
+    "price": "3,500원",
+    "posterImg": "013.jpeg"
+  },
+  {
+    "title": "브라우니",
+    "type": "디저트",
+    "price": "4,000원",
+    "posterImg": "014.jpeg"
+  },
+  {
+    "title": "휘낭시에",
+    "type": "디저트",
+    "price": "3,000원",
+    "posterImg": "015.jpeg"
+  }
+]
